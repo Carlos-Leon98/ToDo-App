@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DoTo</title>
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
 </head>
 <body>
-    <div id="root"></div>
+    <header>
+        <h1>ToDo</h1>
+    </header>
+    <form action="get">
+        <input type="text" placeholder="Enter a task or an ID Task">
+    </form>
+    <table>
+        <tr>
+            <th>Incompleted</th>
+            <th>In Progress</th>
+            <th>Completed</th>
+        </tr>
+    </table>
 </body>
 </html>
